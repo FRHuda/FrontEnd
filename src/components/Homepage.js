@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Carousel} from 'react-responsive-carousel';
+import Carouselnya from './Carouselnya';
 import '../supports/css/tambahan1.css';
 import product1 from '../supports/image/product-img/product-1.jpg';
 import product2 from '../supports/image/product-img/product-2.jpg';
@@ -72,6 +72,8 @@ class homePage extends Component {
                         </div>
                     </div>
 
+                    <Carouselnya/>
+                    
                     <div className="container">
                         <div className="row">
                             <div className="col-12">
